@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S3Service", "S3Service.csproj", "{258DC991-C3F2-4F6D-A736-B9D14582EAA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestS3", "..\TestS3\TestS3.csproj", "{73836C85-6E13-40E0-A9E7-81481F8B66A2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{258DC991-C3F2-4F6D-A736-B9D14582EAA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{258DC991-C3F2-4F6D-A736-B9D14582EAA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{258DC991-C3F2-4F6D-A736-B9D14582EAA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{258DC991-C3F2-4F6D-A736-B9D14582EAA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73836C85-6E13-40E0-A9E7-81481F8B66A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73836C85-6E13-40E0-A9E7-81481F8B66A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73836C85-6E13-40E0-A9E7-81481F8B66A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73836C85-6E13-40E0-A9E7-81481F8B66A2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48B973C1-CAC7-4B9D-8E21-166F26F870C0}
+	EndGlobalSection
+EndGlobal
